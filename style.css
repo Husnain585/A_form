@@ -1,0 +1,83 @@
+/* ..................... Modal Css goes start here.................................. */
+body
+{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #0e1538;
+    background-image: url(images/keyboard-498396_12801.png);
+
+}
+button
+{
+    position: relative;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    margin: 40px;
+    transition: 1s;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
+}
+button:hover
+{
+    background-color: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 60px var(--clr),
+    0 0 90px var(--clr);
+}
+/* ...........................Modal Css goes ends here .................................*/
+h5
+{
+    text-align: center;
+    text-decoration: consolas;
+    font-size: 30px;
+    display: flex;
+}
+.modal-body
+{
+    background-image: url(images/sunset-hair.jpg);
+    color: #343638;
+}
+td, th
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+label.validation-error
+{
+    color: red;
+    margin-left: 5px;
+}
+form div.form-action-button
+{
+    text-align: right;
+}
+input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: rgba(209, 39, 144, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+tr:nth-child(even),table.list thead>tr 
+{
+    background-color: #ec24;
+}
+input[type=text], input[type=number]
+{
+    width: 100%;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
